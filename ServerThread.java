@@ -8,7 +8,6 @@ class ServerThread extends Thread {
     private Socket connection;
     private Server server; 
     public ServerThread(Server server, Socket connection) {
-        System.out.println("hey will u be my chammak chalo?");
         this.connection=connection;
         this.server=server;
         start();
